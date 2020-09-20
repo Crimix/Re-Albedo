@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.black_dog20.realbedo.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "realbedo.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "EmptyProfilerMixin",
+    "EntityRendererMixin",
+    "GlStateManagerMixin",
+    "ProfilerMixin",
+    "TileEntityRendererDispatcherMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
